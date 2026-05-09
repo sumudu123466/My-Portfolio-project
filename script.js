@@ -86,12 +86,8 @@ function openAssignment(event, url) {
 const form = document.getElementById('contact-form');
 
     form.addEventListener('submit', function(e) {
-        // Page eka reload wena eka nawathwanawa
-        e.preventDefault();
-
-        // 2. Alert eka pennanawa
+        e.preventDefault();  
         alert('Your message sent!');
-
-        // 3. Form eka reset karanawa 
         this.reset();
     })
+
