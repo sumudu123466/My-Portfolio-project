@@ -12,16 +12,19 @@
 
 <body>
     <header>
-        <div class="logo">Portfolio<span>.</span></div>
+        <div class="logo">S&M<span>.</span>
+        </div>
         <header>
-            <a href="#" class="logo">Portfolio<span>.</span></a>
+            <a href="#" class="logo">S&M<span>.</span>Dev</a>
 
             <nav class="navbar">
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
                 <a href="#work">Work</a>
+                <a href="#showcase">Gallery</a>
                 <a href="#contact">Contact</a>
+
             </nav>
 
             <div id="menu-icon">
@@ -41,12 +44,14 @@
                 creating clean, modern and user-friendly interfaces.</p>
 
             <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/Sumudu Hasinika" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="https://wa.me/94786037551" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+                <a href="https://github.com/sumudu123466" target="_blank"><i class="fab fa-github"></i></a>
             </div>
 
-            <a href="#" class="btn"> About Me</a>
+            <a href="#about" class="btn"> About Me</a>
         </div>
 
         <div class="image-box">
@@ -68,7 +73,7 @@
                 experiences.
                 With a focus on responsive design and interactive elements, I love turning creative ideas into
                 functional reality.
-            </p> <a href="#" class="btn">Read More</a>
+            </p> <a href="#about" class="btn">Read More</a>
         </div>
     </section>
     <section class="skills" id="skills">
@@ -159,7 +164,8 @@
                                 smooth gameplay mechanics, real-time score tracking, and an immersive UI, showcasing the
                                 power of front-end logic and creative animation."</p> <a href="#"><i
                                     class="fas fa-external-link-alt"></i></a>
-                            <a href="#" class="view-btn">View</a>
+                            <a href="#" class="view-btn"
+                            onclick="openGame(event,'https://github.com/sumudu123466/Connect-4-game-main.git')">View</a>
                         </div>
                     </div>
 
@@ -171,7 +177,8 @@
                                 responsive layout, a dynamic menu display, and a seamless user interface designed to
                                 provide a cozy digital experience for coffee lovers.</p> <a href="#"><i
                                     class="fas fa-external-link-alt"></i></a>
-                            <a href="#" class="view-btn">View</a>
+                            <a href="#" class="view-btn"
+                                onclick="openCoffeeShop(event , 'https://github.com/sumudu123466/Coffee_Shop_4.git')">View</a>
                         </div>
                     </div>
                 </div>
@@ -182,51 +189,66 @@
                 <div class="assignments-scroll-box">
                     <div class="assignment-item">
                         <div class="as-info">
-                            <h4>Assignment 01 </h4>
+                            <h4>Assignment 01</h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <div class="view-buttons-container">
+                            <a href="#" class="view-btn"
+                                onclick="openAssignment(event, 'https://www.gloomaps.com/kjaTkTmj6q')">View</a>
+                            <a href="#" class="view-btn"
+                                onclick="openAssignment(event, 'https://drive.google.com/file/d/1Zz35IMyXnH0RdbF6_jjpizkDuG8nbSVK/view')">View</a>
+                        </div>
                     </div>
 
                     <div class="assignment-item">
                         <div class="as-info">
-                            <h4>Assignment 02 </h4>
+                            <h4>Assignment 02</h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event, 'https://www.figma.com/design/DWY1VnFqXuQgQExTaw5WL0/desktop?node-id=0-1&t=xCq3sFKc7Skoghid-1')">View</a>
                     </div>
 
                     <div class="assignment-item">
                         <div class="as-info">
-                            <h4>Assignment 03 </h4>
+                            <h4>Assignment 03</h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event, 'https://github.com/sumudu123466/My-Portfolio-project')">View</a>
                     </div>
 
                     <div class="assignment-item">
                         <div class="as-info">
-                            <h4>Assignment 04 </h4>
+                            <h4>Assignment 04</h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event, 'https://github.com/sumudu123466/ITS1119---Web-Tech')">View</a>
                     </div>
 
                     <div class="assignment-item">
                         <div class="as-info">
                             <h4>Assignment 05 </h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event,'https://github.com/sumudu123466/ITS1119-web-technology')">View</a>
                     </div>
 
                     <div class="assignment-item">
                         <div class="as-info">
                             <h4>Assignment 06 </h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event , 'https://github.com/sumudu123466/ITS-1119---my-porfolio.git')">View</a>
                     </div>
 
                     <div class="assignment-item">
                         <div class="as-info">
                             <h4>Assignment 07 </h4>
                         </div>
-                        <a href="#" class="view-btn">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event , 'https://www.gloomaps.com/yw992YaxtQ')">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event , 'https://drive.google.com/file/d/193XqpwLw0g0zChbe-7etLf7pZx_s1vqR/view')">View</a>
+                        <a href="#" class="view-btn"
+                            onclick="openAssignment(event , 'https://www.figma.com/design/i5RJYoP1v3M4PvqneZ2168/pos-system?node-id=0-1&t=8jr4pcvw4VdOawCE-1')">View</a>
                     </div>
 
                     <div class="assignment-item">
@@ -337,22 +359,26 @@
                 </div>
 
                 <div class="social-media">
-                    <a href="#"><i class='bx bxl-linkedin'></i></a>
-                    <a href="#"><i class='bx bxl-twitter'></i></a>
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.linkedin.com/in/sumudu-hasinika" target="_blank"><i
+                            class='bx bxl-linkedin'></i></a>
+
+                    <a href="https://www.tiktok.com/sumudu453" target="_blank"><i class='bx bxl-tiktok'></i></a>
+
+                    <a href="https://www.instagram.com/Sumudu Hasinika" target="_blank"><i
+                            class='bx bxl-instagram'></i></a>
                 </div>
             </div>
 
-            <form action="#">
+            <form id="contact-form">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="text" placeholder="Email Subject" required>
                 </div>
-                <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </form>
         </div>
@@ -364,6 +390,7 @@
 
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
